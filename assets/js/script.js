@@ -103,7 +103,7 @@ $(document).ready(function () {
 
 
 
-
+/* commented to take out the problems with china firewall
 
     var mapCanvas = document.getElementById('map-canvas');
     var mapOptions = {
@@ -123,6 +123,8 @@ $(document).ready(function () {
         marker.setMap(map);
 
     //google.maps.event.addDomListener(window, 'load', initialize);
+
+*/
 
 
     // Show Reletive Page Onclick
@@ -158,7 +160,7 @@ $(document).ready(function () {
     $('.menu div.contact-btn').on('click', function () {
         $('.contact-page').fadeIn(1200);
         setTimeout(function(){
-            google.maps.event.trigger(map,'resize');
+        // commented to take out the problems with china firewall    google.maps.event.trigger(map,'resize');
         },100);
     });
 
@@ -190,7 +192,7 @@ $(document).ready(function () {
     /*----------------------script for owl carousel sponsors---------------------*/
 
         $("#sponsor-list").owlCarousel({
-                 
+
             autoPlay: 3000, //Set AutoPlay to 3 seconds
             stopOnHover: true,
             items : 3,
@@ -215,6 +217,6 @@ $(document).ready(function () {
     });
 
 
-    
+
 
 });
