@@ -1,2 +1,4 @@
 # Rudi - Portfolio
-Based on boots4 - world's first template made by Bootstrap 4. Originally uploaded by Hiryu
+
+Coded on the github editor - a treat itself.
+Credits on the template go to boots4, based on Bootstrap 4. Originally uploaded by Hiryu
