@@ -69,8 +69,8 @@
 /*-----------------------------------
                        1 ) Font Import From useso Fonts   (everywhere that used to say google, got replaced by useso that it is chinese. also removed https)
                       -----------------------------------*/
-@import url(http://fonts.googleapis.com/css?family=Hind:300,500);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Hind:300,500);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic);
 /*----------------------
                        2 ) Preloader Styles
                       ----------------------*/

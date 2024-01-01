@@ -61,9 +61,9 @@
                        1 ) Font Import From Google Fonts    useso is used instead (and also removed the https)
                       -----------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,500);
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,300,500);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /*----------------------
                        2 ) Preloader Styles
