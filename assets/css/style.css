@@ -57,15 +57,15 @@
 --------------------------------------------------------
 */
 
-                    /*-----------------------------------
+/*-----------------------------------
                        1 ) Font Import From Google Fonts    useso is used instead (and also removed the https)
                       -----------------------------------*/
 
-@import url(http://fonts.useso.com/css?family=Raleway:400,100,300,500);
-@import url(http://fonts.useso.com/css?family=Playfair+Display:400,700,900);
-@import url(http://fonts.useso.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,500);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-                    /*----------------------
+/*----------------------
                        2 ) Preloader Styles
                       ----------------------*/
 
@@ -79,7 +79,7 @@
     z-index: 10000;
 }
 
-.loader{
+.loader {
     position: absolute;
     width: 42px;
     height: 42px;
@@ -89,42 +89,56 @@
     margin-left: -21px;
     margin-top: -21px;
 }
-.loader span{
-    width:20px;
-    height:20px;
-    position:absolute;
-    background:red;
-    display:block;
+
+.loader span {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: red;
+    display: block;
     animation: preloader_6_span 1s infinite linear;
 }
-.loader span:nth-child(1){
-background:#2ecc71;
+
+.loader span:nth-child(1) {
+    background: #2ecc71;
 
 }
-.loader span:nth-child(2){
-left:22px;
-background:#9b59b6;
+
+.loader span:nth-child(2) {
+    left: 22px;
+    background: #9b59b6;
     animation-delay: .2s;
 
 }
-.loader span:nth-child(3){
-top:22px;
-background:#3498db;
+
+.loader span:nth-child(3) {
+    top: 22px;
+    background: #3498db;
     animation-delay: .4s;
 }
-.loader span:nth-child(4){
-top:22px;
-left:22px;
-background:#f1c40f;
+
+.loader span:nth-child(4) {
+    top: 22px;
+    left: 22px;
+    background: #f1c40f;
     animation-delay: .6s;
 }
+
 @keyframes preloader_6_span {
-   0% { transform:scale(1); }
-   50% { transform:scale(0.5); }
-   100% { transform:scale(1); }
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
-                    /*-------------------
+/*-------------------
                        3 ) General Rulas
                       -------------------*/
 
@@ -155,10 +169,18 @@ input {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Raleway', sans-serif;
 }
-h1{font-family: 'Raleway', sans-serif;}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
 
 p {
     /*font-size: 14px;*/
@@ -169,7 +191,7 @@ p {
 h1 {
     font-size: 63px;
     font-weight: 500;
-	text-align: center;
+    text-align: center;
 }
 
 h2 {
@@ -218,7 +240,7 @@ body {
     overflow-x: hidden;
 }
 
-                    /*---------------------
+/*---------------------
                        4 ) Homepage Styles
                       ---------------------*/
 
@@ -266,7 +288,7 @@ body {
     top: 35%;
     display: table;
     margin: 0 auto;
-	text-align: center;
+    text-align: center;
     /*-webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -324,12 +346,13 @@ body {
     padding: 0 10px;
 }
 
-.social-media a + .tooltip > .tooltip-inner {
+.social-media a+.tooltip>.tooltip-inner {
     background-color: transparent;
     color: #00B796;
     font-size: 16px;
 }
-.social-media a + .tooltip > .tooltip-arrow {
+
+.social-media a+.tooltip>.tooltip-arrow {
     border-bottom-color: transparent;
 }
 
@@ -348,7 +371,7 @@ body {
     background: #000;
 }
 
-.menu > div {
+.menu>div {
     width: 50%;
     height: 50%;
     overflow: hidden;
@@ -357,7 +380,7 @@ body {
     cursor: pointer;
 }
 
-.menu > div > img {
+.menu>div>img {
     position: absolute;
     top: 0;
     left: 0;
@@ -368,7 +391,7 @@ body {
     transition: transform 1s linear;
 }
 
-.menu > div:hover > img {
+.menu>div:hover>img {
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
@@ -407,11 +430,11 @@ body {
     transition: all 0.3s;
 }
 
-.menu > div:hover .heading i {
+.menu>div:hover .heading i {
     box-shadow: 0 0 0 50px rgba(256, 256, 256, 0);
 }
 
-.menu > div h2 {
+.menu>div h2 {
     color: #fff;
     font-family: 'Raleway', sans-serif;
     font-size: 35px;
@@ -422,13 +445,13 @@ body {
     letter-spacing: 1px;
 }
 
-.menu > div h2 span {
+.menu>div h2 span {
     color: #00B796;
 }
 
 
 
-                    /*------------------
+/*------------------
                        5 ) Close Button
                       ------------------*/
 
@@ -444,10 +467,10 @@ body {
     background-size: cover;
 }
 
-                    /*-------------------------------------------------
+/*-------------------------------------------------
                        6 ) General Rules for Content Pages Fixed Image
                       -------------------------------------------------*/
-.page{
+.page {
     display: none;
 }
 
@@ -514,7 +537,7 @@ body {
     background: #ffffff;
 }
 
-                    /*------------------
+/*------------------
                        7 ) Profile Page
                       ------------------*/
 
@@ -565,10 +588,10 @@ body {
     border: 1px solid #F3f3f3;
     margin-bottom: 50px;
     -webkit-transition: all 0.3s ease-in-out;
-       -moz-transition: all 0.3s ease-in-out;
-        -ms-transition: all 0.3s ease-in-out;
-         -o-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .team-member-box h4 {
@@ -600,11 +623,15 @@ body {
 }
 
 .about-us-desc p:last-child {
-    -webkit-column-count: 2;/* Chrome, Safari, Opera */
-    -moz-column-count: 2;/* Firefox */
+    -webkit-column-count: 2;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 2;
+    /* Firefox */
     column-count: 2;
-    -webkit-column-gap: 30px;/* Chrome, Safari, Opera */
-    -moz-column-gap: 30px;/* Firefox */
+    -webkit-column-gap: 30px;
+    /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px;
+    /* Firefox */
     column-gap: 30px;
     font-size: 14px;
 }
@@ -632,7 +659,7 @@ body {
 }
 
 
-                    /*--------------------
+/*--------------------
                        9 ) Portfolio Page
                       --------------------*/
 
@@ -672,7 +699,7 @@ body {
     color: #fff;
 }
 
-#projects > .mix {
+#projects>.mix {
     display: none;
 }
 
@@ -830,7 +857,7 @@ body {
 /*----- Popup Sty;es [ END ] --------*/
 
 
-                    /*====================================
+/*====================================
                                 Service Page
                     =======================================*/
 
@@ -842,8 +869,7 @@ body {
 
 /*---------  service-flip------------------*/
 
-.flipper i
-{
+.flipper i {
     width: 58px;
     height: 58px;
     border-radius: 50%;
@@ -859,8 +885,8 @@ body {
     margin-left: -29px;
     margin-top: -29px;
 }
-.flip-container
-{
+
+.flip-container {
     -webkit-perspective: 1000;
     -moz-perspective: 1000;
     -o-perspective: 1000;
@@ -868,21 +894,20 @@ body {
 }
 
 .flip-container:hover .flipper,
-.flip-container.hover .flipper
-{
+.flip-container.hover .flipper {
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
-.flip-container, .front, .back
-{
+.flip-container,
+.front,
+.back {
     height: 300px;
 }
 
-.flipper
-{
+.flipper {
     -webkit-transition: 0.6s;
     -webkit-transform-style: preserve-3d;
 
@@ -897,12 +922,13 @@ body {
 
     position: relative;
 }
-.faq-desc-item
-{
+
+.faq-desc-item {
     margin: 15px 10px;
 }
-.front, .back
-{
+
+.front,
+.back {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -o-backface-visibility: hidden;
@@ -912,19 +938,19 @@ body {
     left: 0;
 }
 
-.front
-{
+.front {
     z-index: 2;
     /*background-color: rgba(92, 145, 216, 0.27);*/
     background-color: #f4f4f4;
     width: 100%;
 }
-.front h5, .back p
-{
+
+.front h5,
+.back p {
     margin-top: 20px;
 }
-.front h5
-{
+
+.front h5 {
     line-height: 31px;
     font-weight: 400;
     position: absolute;
@@ -933,8 +959,8 @@ body {
     margin-left: -55px;
     margin-top: -29px;
 }
-.back
-{
+
+.back {
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
@@ -947,8 +973,7 @@ body {
     margin-top: 40px;
 }
 
-.back p
-{
+.back p {
     text-align: center;
     padding: 0 20px;
     font-family: 'Raleway', sans-serif;
@@ -965,10 +990,10 @@ body {
     margin: 15px 0px;
     text-align: center;
     -webkit-transition: all 0.3s ease-in-out;
-       -moz-transition: all 0.3s ease-in-out;
-        -ms-transition: all 0.3s ease-in-out;
-         -o-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .price-box p {
@@ -1012,10 +1037,10 @@ body {
     padding: 5px 20px;
     text-transform: capitalize;
     -webkit-transition: all 0.3s ease-in-out;
-       -moz-transition: all 0.3s ease-in-out;
-        -ms-transition: all 0.3s ease-in-out;
-         -o-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .price-catagory:hover .price-box {
@@ -1054,7 +1079,7 @@ body {
 
 
 
-                    /*-------------------
+/*-------------------
                        10 ) Contact Page
                       -------------------*/
 
@@ -1105,27 +1130,29 @@ body {
 
 .form-control:focus {
     border-color: #DADADA;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(150, 144, 144, 0.5);
-       -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(150, 144, 144, 0.5);
-        -ms-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(150, 144, 144, 0.5);
-         -o-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(150, 144, 144, 0.5);
-            box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(150, 144, 144, 0.5);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(150, 144, 144, 0.5);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(150, 144, 144, 0.5);
+    -ms-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(150, 144, 144, 0.5);
+    -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(150, 144, 144, 0.5);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(150, 144, 144, 0.5);
 }
 
 ::-webkit-input-placeholder {
-   color: #969595;
+    color: #969595;
 }
 
-:-moz-placeholder { /* Firefox 18- */
-   color: #969595;
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #969595;
 }
 
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #969595;
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #969595;
 }
 
 :-ms-input-placeholder {
-   color: #969595;
+    color: #969595;
 }
 
 
@@ -1152,11 +1179,11 @@ input#cfsubmit {
 input#cfsubmit:hover {
     background-color: #C78443;
     color: #ffffff;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(150, 144, 144, 0.5);
-       -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(150, 144, 144, 0.5);
-        -ms-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(150, 144, 144, 0.5);
-         -o-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(150, 144, 144, 0.5);
-            box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(150, 144, 144, 0.5);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(150, 144, 144, 0.5);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(150, 144, 144, 0.5);
+    -ms-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(150, 144, 144, 0.5);
+    -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(150, 144, 144, 0.5);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(150, 144, 144, 0.5);
 }
 
 #contactFormResponse {
@@ -1167,7 +1194,8 @@ input#cfsubmit:hover {
     width: 100%;
     height: 250px;
 }
-                    /*-------------
+
+/*-------------
                        11 ) Footer
                       -------------*/
 
@@ -1195,11 +1223,12 @@ input#cfsubmit:hover {
     color: #fff;
     float: left;
 }
+
 .footer .author {
     float: right;
     line-height: 1;
     color: #fff;
-	display:none;
+    display: none;
 }
 
 .footer a {
@@ -1298,6 +1327,6 @@ input#cfsubmit:hover {
     .footer .author {
         float: none;
         text-align: center;
-		display:none;
+        display: none;
     }
 }
