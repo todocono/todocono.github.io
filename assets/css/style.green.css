@@ -66,12 +66,12 @@
 --------------------------------------------------------
 */
 
-                    /*-----------------------------------
+/*-----------------------------------
                        1 ) Font Import From useso Fonts   (everywhere that used to say google, got replaced by useso that it is chinese. also removed https)
                       -----------------------------------*/
-@import url(http://fonts.useso.com/css?family=Hind:300,500);
-@import url(http://fonts.useso.com/css?family=Open+Sans:400,400italic);
-                    /*----------------------
+@import url(http://fonts.googleapis.com/css?family=Hind:300,500);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic);
+/*----------------------
                        2 ) Preloader Styles
                       ----------------------*/
 
@@ -136,10 +136,14 @@
 }
 
 @-webkit-keyframes loader {
-    0%, 10%, 100% {
+
+    0%,
+    10%,
+    100% {
         width: 40px;
         height: 40px;
     }
+
     65% {
         width: 80px;
         height: 80px;
@@ -147,16 +151,20 @@
 }
 
 @-webkit-keyframes loaderBlock {
-    0%, 30% {
+
+    0%,
+    30% {
         -webkit-transform: rotate(0);
         -moz-transform: rotate(0);
         -ms-transform: rotate(0);
         -o-transform: rotate(0);
         transform: rotate(0);
     }
+
     55% {
         opacity: 1;
     }
+
     100% {
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
@@ -167,16 +175,20 @@
 }
 
 @-webkit-keyframes loaderBlockInverse {
-    0%, 20% {
+
+    0%,
+    20% {
         -webkit-transform: rotate(0);
         -moz-transform: rotate(0);
         -ms-transform: rotate(0);
         -o-transform: rotate(0);
         transform: rotate(0);
     }
+
     55% {
         opacity: 1;
     }
+
     100% {
         -webkit-transform: rotate(-90deg);
         -moz-transform: rotate(-90deg);
@@ -187,10 +199,14 @@
 }
 
 @keyframes loader {
-    0%, 10%, 100% {
+
+    0%,
+    10%,
+    100% {
         width: 40px;
         height: 40px;
     }
+
     65% {
         width: 80px;
         height: 80px;
@@ -198,16 +214,20 @@
 }
 
 @keyframes loaderBlock {
-    0%, 30% {
+
+    0%,
+    30% {
         -webkit-transform: rotate(0);
         -moz-transform: rotate(0);
         -ms-transform: rotate(0);
         -o-transform: rotate(0);
         transform: rotate(0);
     }
+
     55% {
         opacity: 1;
     }
+
     100% {
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
@@ -219,16 +239,19 @@
 
 @keyframes loaderBlockInverse {
 
-    0%, 20% {
+    0%,
+    20% {
         -webkit-transform: rotate(0);
         -moz-transform: rotate(0);
         -ms-transform: rotate(0);
         -o-transform: rotate(0);
         transform: rotate(0);
     }
+
     55% {
         opacity: 1;
     }
+
     100% {
         -webkit-transform: rotate(-90deg);
         -moz-transform: rotate(-90deg);
@@ -238,7 +261,7 @@
     }
 }
 
-                    /*-------------------
+/*-------------------
                        3 ) General Rulas
                       -------------------*/
 
@@ -298,7 +321,7 @@ body {
     overflow-x: hidden;
 }
 
-                    /*---------------------
+/*---------------------
                        4 ) Homepage Styles
                       ---------------------*/
 
@@ -382,12 +405,13 @@ body {
     padding: 0 10px;
 }
 
-.social-media a + .tooltip > .tooltip-inner {
+.social-media a+.tooltip>.tooltip-inner {
     background-color: transparent;
     color: #00B796;
     font-size: 16px;
 }
-.social-media a + .tooltip > .tooltip-arrow {
+
+.social-media a+.tooltip>.tooltip-arrow {
     border-bottom-color: transparent;
 }
 
@@ -405,7 +429,7 @@ body {
     position: relative;
 }
 
-.menu > div {
+.menu>div {
     width: 100%;
     height: 25%;
     overflow: hidden;
@@ -413,7 +437,7 @@ body {
     cursor: pointer;
 }
 
-.menu > div > img {
+.menu>div>img {
     position: absolute;
     top: 0;
     left: 0;
@@ -426,7 +450,7 @@ body {
     transition: transform 1s linear;
 }
 
-.menu > div:hover > img {
+.menu>div:hover>img {
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
@@ -463,7 +487,7 @@ body {
     transition: all 0.3s;
 }
 
-.menu > div:hover .heading i {
+.menu>div:hover .heading i {
     box-shadow: 0 0 0 50px rgba(256, 256, 256, 0);
 }
 
@@ -489,7 +513,7 @@ body {
 }
 
 
-                    /*------------------
+/*------------------
                        5 ) Close Button
                       ------------------*/
 
@@ -505,7 +529,7 @@ body {
     background-size: cover;
 }
 
-                    /*-------------------------------------------------
+/*-------------------------------------------------
                        6 ) General Rules for Content Pages Fixed Image
                       -------------------------------------------------*/
 
@@ -560,7 +584,7 @@ body {
     background: #f5f5f5;
 }
 
-                    /*------------------
+/*------------------
                        7 ) Profile Page
                       ------------------*/
 
@@ -639,7 +663,7 @@ body {
 }
 
 .services:hover {
-    background: rgba( 255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.05);
 }
 
 .services i {
@@ -663,6 +687,7 @@ body {
 .services:hover i {
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.15), 0 0 0 40px rgba(255, 255, 255, 0);
 }
+
 .services p,
 .services h3 {
     color: #fff;
@@ -677,7 +702,7 @@ body {
     padding: 50px 15px;
 }
 
-                    /*-----------------
+/*-----------------
                        8 ) Resume Page
                       -----------------*/
 
@@ -863,7 +888,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-                    /*--------------------
+/*--------------------
                        9 ) Portfolio Page
                       --------------------*/
 
@@ -903,7 +928,7 @@ body {
     color: #fff;
 }
 
-#projects > .mix {
+#projects>.mix {
     display: none;
 }
 
@@ -1091,7 +1116,7 @@ body {
     text-align: center;
 }
 
-                    /*-------------------
+/*-------------------
                        10 ) Contact Page
                       -------------------*/
 
@@ -1175,8 +1200,9 @@ body {
     color: #fff;
 }
 
-.error, .success {
-	display: none;
+.error,
+.success {
+    display: none;
 }
 
 .error h3,
@@ -1198,6 +1224,7 @@ body {
     color: #449d44;
     border: 1px solid #449d44;
 }
+
 /*  commented because of chinese firewall
 .google-map {
     width: 100%;
@@ -1237,7 +1264,7 @@ body {
     font-size: 18px;
 }
 
-.contact-details .social-media a + .tooltip > .tooltip-inner {
+.contact-details .social-media a+.tooltip>.tooltip-inner {
     background-color: #343333;
     color: #00B796;
     font-size: 16px;
@@ -1246,11 +1273,11 @@ body {
     border: 0 none;
 }
 
-.contact-details .social-media a + .tooltip > .tooltip-arrow {
+.contact-details .social-media a+.tooltip>.tooltip-arrow {
     border-top-color: #343333;
 }
 
-                    /*-------------
+/*-------------
                        11 ) Footer
                       -------------*/
 
@@ -1265,6 +1292,7 @@ body {
     font-size: 16px;
     float: left;
 }
+
 .footer p {
     line-height: 1;
     color: #fff;
