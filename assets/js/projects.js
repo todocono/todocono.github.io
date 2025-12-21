@@ -22,12 +22,12 @@ const projects = [
   {
     id: "portfolio-2",
     title: "Kreators Kit",
-    tags: ["Pcomp"],
-    thumbnail: "assets/img/portfolio/thumbs/arduino-school.jpg",
-    image: "assets/img/portfolio/arduino-school.jpg",
+    tags: ["Pcomp", "teaching"],
+    thumbnail: "https://cdn.hackaday.io/images/5483351535480768267.JPG",
+    image: "https://cdn.hackaday.io/images/5483351535480768267.JPG",
     link: "https://hackaday.io/project/160689-kreators-kit",
     linkText: "Project Link",
-    description: "We had the combined experience of teaching with Arduino for some 15 years among the whole team, but all of us felt frustrated in a way or other by the way hardware was not really connected with the learning journey a beginner would face.<br>Some time ago we started teaching summer camps at Koding Kreators, and I had now some 8 years since I jumped into the Open Source Robot Plaform Multiplo. The development of the Duinobot was something already in the version 1.1 or 1.2 by the time I started manufacturing them, nevertheless I got a real grasp of what it means to bring technology to a classroom with Plobot."
+    description: "A DIY kit for young creators that makes learning physical computing and robotics accessible and fun, focusing on sensor integration. We had the combined experience of teaching with Arduino for some 15 years among the whole team, but all of us felt frustrated in a way or other by the way hardware was not really connected with the learning journey a beginner would face."
   },
   {
     id: "portfolio-3",
@@ -87,7 +87,7 @@ const projects = [
     image: "assets/img/portfolio/3dprint.jpg",
     link: "https://www.youtube.com/watch?v=S2hGLG0Bs_c",
     linkText: "Watch promo video",
-    description: "Koding Kreators was a startup focused on STEAM education. I developed content for an immersive STEAM learning experience for children ages 5 to 15. Our camp programs focused on art and technology scaled up to a team of 15 teachers with hundreds of students per summer. We ran activities"
+    description: "Koding Kreators was a startup focused on STEAM education. I developed content for an immersive STEAM learning experience for children ages 5 to 15. Our camp programs focused on art and technology scaled up to a team of 15 teachers with hundreds of students per summer. We ran activities and workshops that combined coding, robotics, and creative arts to inspire the next generation of makers."
   },
   {
     id: "portfolio-9",
@@ -127,7 +127,7 @@ const projects = [
     image: "assets/img/portfolio/interface-lab.jpg",
     link: "https://medium.com/interface-lab/all?topic=tutorial",
     linkText: "Read Online Tutorials",
-    description: "A class co-taught with Christian Grewell in 2022 for the Low Residency program for NYU. See the <a href='../pdf/InterfaceLab_Syllabus.pdf'>syllabus here</a>. We explored the intersection of physical and digital interfaces. I designed a series of <a href='https://medium.com/interface-lab/all?topic=tutorial'>tutorials</a> to connect Arduino to Unity, using both Serial and wireless communication."
+    description: "A class co-taught with Christian Grewell in 2022 for the Low Residency program for NYU. We explored the intersection of physical and digital interfaces. I designed a series of tutorials to connect Arduino to Unity, using both Serial and wireless communication. <a href='../pdf/InterfaceLab_Syllabus.pdf'>Syllabus here</a>."
   },
   {
     id: "portfolio-13",
@@ -138,5 +138,65 @@ const projects = [
     link: "assets/pdf/AnyAdapter.pdf",
     linkText: "Read the Paper",
     description: "We worked with students from my class Creating Assistive Technology For many wheelchair users, the need to operate their chair directly conflicts with using a smartphone for critical tasks like navigation and communication. Existing commercial solutions are often unsuitable, leaving a significant accessibility gap. In this article, we describe how we collaboratively designed a custom accessory to solve this need. Our team consisted of engineers, designers, and a wheelchair user. We engaged in an iterative prototyping process, following clear design principles, and utilizing emergent technologies such as 3D printing and physical computing. The result is the AnyAdapter, a motorized, open-source accessory that allows a user to mount and precisely position a smartphone with minimal physical effort."
+  },
+  {
+    id: "portfolio-14",
+    title: "Robotics Course",
+    tags: ["teaching", "robotics"],
+    thumbnail: "https://lh3.googleusercontent.com/pw/AP1GczMnpNMuvRU7F3CfOwM0acOZHgfWRH8TuZ8smhFUFkGUuQYCYOcu5T3ERa9rVHvv295tm3rIbNnOtafst8_51Eb9M8D7X0EEcGozfff0MLDZScgSqLVV4pZWK28HKPViwb4fMR6dh7RrxlHQk0WghBRxUg=w1054-h1404-s-no-gm?authuser=0",
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMnpNMuvRU7F3CfOwM0acOZHgfWRH8TuZ8smhFUFkGUuQYCYOcu5T3ERa9rVHvv295tm3rIbNnOtafst8_51Eb9M8D7X0EEcGozfff0MLDZScgSqLVV4pZWK28HKPViwb4fMR6dh7RrxlHQk0WghBRxUg=w1054-h1404-s-no-gm?authuser=0",
+    link: "http://rodolfocossovich.com/robot-course/",
+    linkText: "View Course",
+    description: "A detailed curriculum created for teenagers to explore the fundamentals of robotics through hands-on activities, covering electronics, mechanics, and coding."
+  },
+  {
+    id: "portfolio-15",
+    title: "bot5",
+    tags: ["robotics", "coding"],
+    thumbnail: "assets/img/portfolio/thumbs/design-challenge.jpg",
+    image: "assets/img/portfolio/design-challenge.jpg",
+    link: "https://github.com/todocono/bot5",
+    linkText: "View on GitHub",
+    description: "An innovative approach to teaching robotics using JavaScript, P5.js, and ML5.js. It simplifies the bridge between web technologies and physical hardware."
+  },
+  {
+    id: "portfolio-16",
+    title: "The Perfect Robot",
+    tags: ["art", "robotics"],
+    thumbnail: "assets/img/portfolio/image_1.jpg",
+    image: "assets/img/portfolio/image_1.jpg",
+    link: "https://youtu.be/8DQRyci-9YU",
+    linkText: "Watch Thesis Video",
+    description: "My MFA thesis project from 2020, exploring the philosophical and aesthetic boundaries of robotic agency and the concept of \"perfection\" in machines."
+  },
+  {
+    id: "portfolio-17",
+    title: "Mad Science robot program",
+    tags: ["teaching", "robotics"],
+    thumbnail: "assets/img/portfolio/thumbs/creative-coding.jpg",
+    image: "assets/img/portfolio/little-bits.jpg",
+    link: "https://youtube.com/shorts/RuToT-ROdMg",
+    linkText: "Watch Short",
+    description: "Engaging educational programs designed for children to experience the wonders of science and robotics through interactive demonstrations."
+  },
+  {
+    id: "portfolio-18",
+    title: "Robotario",
+    tags: ["robotics", "research"],
+    thumbnail: "assets/img/portfolio/robotario2.png",
+    image: "assets/img/portfolio/robotario2.png",
+    link: "https://youtu.be/c957UJpnLr0",
+    linkText: "Watch Video",
+    description: "An interactive installation exhibited at the West Bund Museum, experimenting with robotic interactions and swarm behaviors, presented at ICSRA 2020."
+  },
+  {
+    id: "portfolio-19",
+    title: "Introduction to Robotics",
+    tags: ["teaching", "robotics"],
+    thumbnail: "assets/img/portfolio/intro-robo.png",
+    image: "assets/img/portfolio/intro-robo.png",
+    link: "https://youtu.be/n_9sLtCdOjw",
+    linkText: "Watch Video",
+    description: "A comprehensive introduction to the world of robotics, covering basic concepts, history, and the future of automated systems."
   },
 ];
