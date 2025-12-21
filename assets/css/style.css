@@ -818,6 +818,8 @@ body {
     max-width: 800px;
     border: 5px solid #00B796;
     background: #fff;
+    max-height: 90vh;
+    overflow-y: auto;
 }
 
 .popup_content img {
