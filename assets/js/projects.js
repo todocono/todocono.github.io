@@ -127,14 +127,16 @@ const projects = [
     image: "assets/img/portfolio/interface-lab.jpg",
     link: "https://medium.com/interface-lab/all?topic=tutorial",
     linkText: "Read Online Tutorials",
-    description: "A class co-taught with Christian Grewell in 2022 for the Low Residency program for NYU. We explored the intersection of physical and digital interfaces. I designed a series of tutorials to connect Arduino to Unity, using both Serial and wireless communication."
+    description: "A class co-taught with Christian Grewell in 2022 for the Low Residency program for NYU. See the <a href='../pdf/InterfaceLab_Syllabus.pdf'>syllabus here</a>. We explored the intersection of physical and digital interfaces. I designed a series of <a href='https://medium.com/interface-lab/all?topic=tutorial'>tutorials</a> to connect Arduino to Unity, using both Serial and wireless communication."
   },
   {
     id: "portfolio-13",
     title: "AnyAdapter",
-    category: "Hardware / Co-design",
-    img: "assets/img/portfolio/anyadapter.png",
+    tags: ["accessibility", "Pcomp"],
+    thumbnail: "assets/img/portfolio/anyadapter.png",
+    image: "assets/img/portfolio/anyadapter.png",
     link: "assets/pdf/AnyAdapter.pdf",
-    description: "For many wheelchair users, the need to operate their chair directly conflicts with using a smartphone for critical tasks like navigation and communication. Existing commercial solutions are often unsuitable, leaving a significant accessibility gap. In this article, we describe how we collaboratively designed a custom accessory to solve this need. Our team consisted of engineers, designers, and a wheelchair user. We engaged in an iterative prototyping process, following clear design principles, and utilizing emergent technologies such as 3D printing and physical computing. The result is the AnyAdapter, a motorized, open-source accessory that allows a user to mount and precisely position a smartphone with minimal physical effort."
+    linkText: "Read the Paper",
+    description: "We worked with students from my class Creating Assistive Technology For many wheelchair users, the need to operate their chair directly conflicts with using a smartphone for critical tasks like navigation and communication. Existing commercial solutions are often unsuitable, leaving a significant accessibility gap. In this article, we describe how we collaboratively designed a custom accessory to solve this need. Our team consisted of engineers, designers, and a wheelchair user. We engaged in an iterative prototyping process, following clear design principles, and utilizing emergent technologies such as 3D printing and physical computing. The result is the AnyAdapter, a motorized, open-source accessory that allows a user to mount and precisely position a smartphone with minimal physical effort."
   },
 ];
