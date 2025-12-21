@@ -153,8 +153,8 @@ const projects = [
     id: "portfolio-15",
     title: "bot5",
     tags: ["robotics", "coding"],
-    thumbnail: "assets/img/portfolio/thumbs/design-challenge.jpg",
-    image: "assets/img/portfolio/design-challenge.jpg",
+    thumbnail: "assets/img/portfolio/bot5.png",
+    image: "assets/img/portfolio/bot5.png",
     link: "https://github.com/todocono/bot5",
     linkText: "View on GitHub",
     description: "An innovative approach to teaching robotics using JavaScript, P5.js, and ML5.js. It simplifies the bridge between web technologies and physical hardware."
@@ -163,8 +163,8 @@ const projects = [
     id: "portfolio-16",
     title: "The Perfect Robot",
     tags: ["art", "robotics"],
-    thumbnail: "assets/img/portfolio/image_1.jpg",
-    image: "assets/img/portfolio/image_1.jpg",
+    thumbnail: "assets/img/portfolio/perfectRobot.png",
+    image: "assets/img/portfolio/perfectRobot.png",
     link: "https://youtu.be/8DQRyci-9YU",
     linkText: "Watch Thesis Video",
     description: "My MFA thesis project from 2020, exploring the philosophical and aesthetic boundaries of robotic agency and the concept of \"perfection\" in machines."
@@ -173,8 +173,8 @@ const projects = [
     id: "portfolio-17",
     title: "Mad Science robot program",
     tags: ["teaching", "robotics"],
-    thumbnail: "assets/img/portfolio/thumbs/creative-coding.jpg",
-    image: "assets/img/portfolio/little-bits.jpg",
+    thumbnail: "assets/img/portfolio/madScience-2.png",
+    image: "assets/img/portfolio/madScience-2.png",
     link: "https://youtube.com/shorts/RuToT-ROdMg",
     linkText: "Watch Short",
     description: "Engaging educational programs designed for children to experience the wonders of science and robotics through interactive demonstrations."
