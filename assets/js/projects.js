@@ -161,7 +161,7 @@ const projects = [
   },
   {
     id: "portfolio-16",
-    title: "The falling human",
+    title: "The Perfect Robot",
     tags: ["art", "robotics"],
     thumbnail: "assets/img/portfolio/perfectRobot.png",
     image: "assets/img/portfolio/perfectRobot.png",
