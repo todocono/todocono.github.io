@@ -95,9 +95,9 @@ const projects = [
     tags: ["accessibility"],
     thumbnail: "assets/img/portfolio/thumbs/XAC.jpg",
     image: "assets/img/portfolio/XAC.jpg",
-    link: "#",
+    link: "https://github.com/todocono/XAC-PACK",
     linkText: "Check out the Github Repo",
-    description: "Pack for Xbox Adaptive Controller (XAC), to allow Bluetooth wheelchair controllers to play with XBOX. This project was developed for the Children's Hospital Eastern Ontario (CHEO) by volunteers at TETRA SOCIETY. I was in charge of the third iteration of hardware and software, collaborating with occupational therapists, people with disabilities, and XBOX experts."
+    description: "Pack for Xbox Adaptive Controller (XAC), to allow Bluetooth wheelchair controllers to play with XBOX. This project was developed for the Children's Hospital Eastern Ontario (CHEO) by volunteers at TETRA SOCIETY. I was in charge of the third iteration of hardware and software, collaborating with occupational therapists, people with disabilities, and XBOX experts. <a href=\"https://github.com/todocono/XAC-PACK\">Repo here</a>"
   },
   {
     id: "portfolio-10",
